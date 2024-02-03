@@ -13,7 +13,7 @@ if (isset($_GET['raza'])) {
     $imagenData = json_decode($imagenData, true);
     
     if ($imagenData && $imagenData['status'] === 'success') {  // Verificamos si se procesa correctamente.
-        $imagenUrl = $imagenData['message'];
+        $imagenUrl = $imagenData['message']; // Obtenemos del JSON la url de las imagenes, que está en "message"
         
         // Obtenemos la extensión de la imagen.
         $extension = pathinfo($imagenUrl, PATHINFO_EXTENSION);
