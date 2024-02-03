@@ -1,0 +1,97 @@
+		
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #eaeaea;
+}
+
+section {
+	max-width: 500px;
+	min-height: 350px;
+	height: auto;
+	margin: 20px auto;
+	margin-bottom: 90px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 25px;
+	text-align: center;
+}
+
+header {
+	background-color: #333;
+	height: 100px;
+	text-align: center;
+	background: url(../img/cabecera.jpg);
+	background-position: center; 
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	background-color: #db007f;
+	padding: 10px;
+}
+
+nav a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 15px;
+	transition: background-color 0.8s;
+}
+
+nav a:hover {
+	background-color: #a50061;
+}
+
+h1 {
+	margin-top: -5px;
+	margin-bottom: -5px;
+	font-size: 25px;
+	text-align: center;
+	color: #db007f;
+}
+
+#imagen {
+	max-width: 500px;
+	height: auto;
+	overflow: hidden;
+}
+
+#imagen img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+label {
+	font-weight: bold;
+}
+
+select {
+	margin-bottom: 15px;
+}
+
+button {
+	font-weight: bold;
+	height: 25px;
+	border-radius: 10px;
+	background-color: #e6e6e6;
+	padding: 5px;
+	margin-bottom: 8px;
+	margin-top: 10px;
+	border:none;
+	cursor:pointer;
+	transition: background-color 0.4s;	
+}
+
+button:hover {
+	color: #ffffff;
+	background-color: #db007f;
+	transition: background-color 0.8s;
+}
